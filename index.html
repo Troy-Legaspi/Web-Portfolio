@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">My Portfolio</div>
+
+    <button class="burger" id="burger-btn">☰</button>
+
+    <nav class="nav-links" id="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  
+
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <h2>Hello, It's Me</h2>
+      <h1>Leslie Troy Legaspi</h1>
+      <p class="role">Information Technology Student</p>
+      <div class="other-contacts">
+        <a href="https://www.facebook.com/share/188V8apytB/" target="_blank">
+            <img src="Media/Icons/facebook.svg" alt="facebook">
+        </a>
+    
+        <a href="mailto:leslietroylegaspi@gmail.com" target="_blank">
+            <img src="Media/Icons/gmail.svg" alt="gmail">
+        </a>
+    
+        <a href="https://www.instagram.com/yortings?igsh=cTl4aW5taWIzYmd2" target="_blank">
+            <img src="Media/Icons/instagram.svg" alt="instagram">
+        </a>
+    </div>
+    </div>
+
+    
+
+    <div class="hero-right">
+      <img src="Media/ProfilePic.png" class="profile-img" alt="Profile" />
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="Media/ProfilePic.png" alt="Leslie Photo" />
+        </div>
+
+        <div class="about-details">
+          <h2>About<span>Me</span></h2>
+          <h3>Leslie Troy Legaspi</h3>
+
+          <p class="intro-text">
+            I'm a passionate and curious developer who enjoys turning ideas into engaging and 
+            functional digital experiences. I specialize in web development, database management, 
+            and UI/UX design, and I love building solutions that blend clean design with strong technical 
+            foundations. With a commitment to continuous learning, I'm always exploring new technologies 
+            and applying them to meaningful projects. My goal is to create innovative, efficient, and 
+            user-centered digital products that make a real impact.
+          </p> 
+
+          
+          <button class="about-button" id="openModal">More</button>
+
+          <div class="skills-section">
+            <h2>SKILLS</h2>
+            <div class="skills-icons">
+              <img src="Media/SKILLS WEB.svg" alt="Web Dev Skills" />
+              <img src="Media/SKILL UX.svg" alt="UI UX Skills" />
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- MODAL -->
+    <div class="modal" id="aboutModal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+
+        <video controls width="100%">
+          <source src="Media/Video/About-Me.mp4" type="video/mp4">
+        </video>
+
+      </div>
+    </div>
+    
+
+  <!-- PROJECTS SECTION -->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="carousel-wrapper">
+    
+      <button class="carousel-btn prev">&#10094;</button>
+  
+      <div class="carousel-container">
+        <div class="carousel-track">
+
+          <div class="project-slide">
+              <img src="Media/Projects/Badge.png" />
+              <span>
+                <h3>Badge Logo</h3>
+              </span>
+          </div>
+      
+          <div class="project-slide">
+              <img src="Media/Projects/Icon.png" />
+              <span>
+                <h3>Icon Logo</h3>
+              </span>
+          </div>
+      
+          <div class="project-slide">
+              <img src="Media/Projects/Vertical-Logo 1.png" />
+              <span>
+                <h3>Vertical Logo</h3>
+              </span>
+          </div>
+      
+          <div class="project-slide">
+              <img src="Media/Projects/Horizontal.png" />
+              <span>
+                <h3>Horizontal Logo</h3>
+              </span>
+          </div>
+      
+          <div class="project-slide">
+              <img src="Media/Projects/Apple.jpg" />
+              <span>
+                <h3>Apple</h3>
+              </span>
+          </div>
+      
+          <div class="project-slide">
+              <img src="Media/Projects/Instagram-Post.png" />
+              <span>
+                <h3>Instagram Post</h3>
+              </span>
+          </div>
+      
+          <div class="project-slide">
+              <img src="Media/Projects/Banner.png" />
+              <span>
+                <h3>Banner</h3>
+              </span>
+          </div>
+      
+          <div class="project-slide">
+              <img src="Media/Projects/Landing-Page.jpg" />
+              <span>
+                <h3>Landing Page</h3>
+              </span>
+          </div>
+      
+          <div class="project-slide">
+              <img src="Media/Projects/Newspaper-Header.png" />
+              <span>
+                <h3>Newsletter Header</h3>
+              </span>
+          </div>
+          
+          <div class="project-slide">
+              <img src="Media/Projects/Inventory-System.jpg" />
+              <span>
+                <h3>Inventory System</h3>
+              </span>
+          </div>
+      
+          <div class="project-slide">
+              <img src="Media/Projects/Cafe-Landing-Page.jpg" />
+              <span>
+                <h3>Cafe Landing Page</h3>
+              </span>
+          </div>
+      
+      </div>
+      
+
+        <button class="carousel-btn next">&#10095;</button>
+    </div>
+  </section>
+
+  
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <h2>Contact<span>Me</span></h2>
+
+    <div class="contact-container">
+
+      <div class="contact-left">
+        <h3>Ready to Collaborate? Let's Get Started!</h3>
+
+        <p class="contact-description">
+          I'm always excited to connect with new people and explore meaningful opportunities. Whether you're looking to develop a website, improve an existing system, or collaborate on a creative digital project, I’d love to hear from you. I’m passionate about turning ideas into functional, user-centered solutions and I enjoy working closely with others to bring their vision to life. Feel free to reach out with any questions, project proposals, or collaboration ideas. I look forward to working with you and creating something outstanding together.
+        </p><br>
+        <p> > 09289483120</p>
+
+        <div class="other-contacts">
+          <a href="https://www.facebook.com/share/188V8apytB/" target="_blank">
+              <img src="Media/Icons/facebook.svg" alt="facebook">
+          </a>
+      
+          <a href="mailto:leslietroylegaspi@gmail.com" target="_blank">
+              <img src="Media/Icons/gmail.svg" alt="gmail">
+          </a>
+      
+          <a href="https://www.instagram.com/yortings?igsh=cTl4aW5taWIzYmd2" target="_blank">
+              <img src="Media/Icons/instagram.svg" alt="instagram">
+          </a>
+      </div>
+      </div>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Enter your Name" />
+        <input type="email" placeholder="Enter your Email" />
+        <input type="text" placeholder="Enter your Subject" />
+        <textarea placeholder="Enter your Message"></textarea>
+        <button type="submit">SEND</button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    © 2025 Leslie Troy A. Legaspi. All rights reserved.
+  </footer>
+
+  <script src="burger.js"></script>
+  <script src="vid-script.js"></script>
+  <script src="script.js"></script>
+
+
+
+</body>
+</html>
